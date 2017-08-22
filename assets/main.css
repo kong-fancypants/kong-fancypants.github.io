@@ -64,6 +64,11 @@ body {
 .tv .screen.active-trailer {
   opacity: 1;
 }
+.mobile-bg {
+  background-image: url("mobile-bg.jpg");
+  background-size: cover;
+  background-position-y: 25%;
+}
 @keyframes sinebob {
   from {
     transform: translateY(5px);

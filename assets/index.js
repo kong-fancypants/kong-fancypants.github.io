@@ -1,3 +1,5 @@
+
+
 var tag = document.createElement('script');
 
       tag.src = "https://www.youtube.com/iframe_api";
@@ -26,15 +28,27 @@ var tag = document.createElement('script');
         });
       }
 function onPlayerReady(event) {
-    event.target.setLoop(true);
-    event.target.playVideo();
-    $('#tv').addClass('active-trailer');
-    tv.mute();
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) 
+    {
+      $('.tv').empty();
+      $('.tv').addClass('mobile-bg');
+    }
+    else
+    { 
+      event.target.setLoop(true);
+      event.target.playVideo();
+      tv.mute();
+    }
+    
   }
 
 function onPlayerStateChange(event){
     if (event.data === YT.PlayerState.ENDED) {
         tv.playVideo(); 
+    }
+    else if (event.data == YT.PlayerState.PLAYING && !$('#tv').hasClass('active-trailer'))
+    {
+      $('#tv').addClass('active-trailer');
     }
 }
 
