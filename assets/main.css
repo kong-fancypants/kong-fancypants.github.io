@@ -3191,7 +3191,8 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   border-radius: 5px;
-  background-color: #7b7899cc;
+  background-color: rgb(123, 120, 153);
+  background-color: rgba(123, 120, 153, 0.8);
   color: #fff;
 }
 .btn-default:hover,
