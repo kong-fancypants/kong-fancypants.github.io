@@ -65,7 +65,7 @@ body {
   opacity: 1;
 }
 .mobile-bg {
-  background-image: url("mobile-bg.jpg");
+  background-image: url("https://cdn1.kongcdn.com/assets/files/0002/1101/mobile-bg.jpg");
   background-size: cover;
   background-position-y: 25%;
 }
@@ -78,9 +78,9 @@ body {
   }
 }
 .console {
-  background-image: url('spiral-notebook.png');
+  background-image: url('https://cdn3.kongcdn.com/assets/files/0002/1104/spiral-notebook.png');
   background-size: cover;
-  box-shadow: 5px 5px 6px #00000040;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, .15);
   border-radius: 2px;
   width: 666px;
   height: 940px;
@@ -152,9 +152,9 @@ body {
   padding: 0 12px;
 }
 .foot {
-  background: url('ink.gif') repeat-x, -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 51%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
-  background: url('ink.gif') repeat-x, -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 51%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: url('ink.gif') repeat-x, linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 51%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: url('https://cdn2.kongcdn.com/assets/files/0002/1099/ink.gif') repeat-x, -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 51%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+  background: url('https://cdn2.kongcdn.com/assets/files/0002/1099/ink.gif') repeat-x, -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 51%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: url('https://cdn2.kongcdn.com/assets/files/0002/1099/ink.gif') repeat-x, linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,1) 51%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   margin-top: 40px;
   color: #fff;
   padding: 0 !important;
